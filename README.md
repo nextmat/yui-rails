@@ -24,7 +24,7 @@ This will create a new project named 'foo' with yui-rails already installed.
 
 In your `app/assets/javascripts/application.js` there may also be a line that looks like:
 
-    //= require jquery_ujs
+    //= require yui_ujs
 
 If so, remove it.
 
@@ -38,7 +38,7 @@ Update your gem bundle
 
     bundle install
     
-Make sure the following line is in your 'app/assets/javascripts/application.js':
+Make sure the following line is in your `app/assets/javascripts/application.js`:
 
     //= require yui
     
