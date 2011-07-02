@@ -6,9 +6,9 @@ Easy integration of YUI with the asset pipeline in Rails 3.1 and greater.
 
 This gem vendors the latest YUI 3 for easy use.
 
-By default the gem will add the YUI base file to your asset pipeline so you can use it immediately. The following line will be added to your 'app/assets/javascripts/application.js':
+Start with the installation instructions below.
 
-    //= require yui
+By default the YUI base file will be added to your asset pipeline so you can use it immediately. Other files can be added as needed.
 
 ## Requirements
 
@@ -20,7 +20,13 @@ You can use the --javascript flag with rails to specify your preferred library w
 
     rails foo --javascript=yui
     
-Will create a new project named 'foo' with yui-rails already installed.
+This will create a new project named 'foo' with yui-rails already installed.
+
+In your `app/assets/javascripts/application.js` there may also be a line that looks like:
+
+    //= require jquery_ujs
+
+If so, remove it.
 
 ## Installation after the fact
 
@@ -31,6 +37,12 @@ Add the library to your gemfile
 Update your gem bundle
 
     bundle install
+    
+Make sure the following line is in your 'app/assets/javascripts/application.js':
+
+    //= require yui
+    
+Remove any lines that reference jquery as applicable.
 
 ## Notes
 
