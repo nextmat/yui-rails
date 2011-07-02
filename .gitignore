@@ -1,0 +1,17 @@
+.rvmrc
+.bundle
+.DS_Store
+Gemfile.lock
+
+# docs
+doc/*
+rdoc
+.yardoc
+
+# editors
+*.tmproj
+*.swp
+.idea
+
+# rcov
+coverage
