@@ -1,6 +1,6 @@
 # YUI-rails
 
-Easy integration of YUI with the asset pipeline in Rails >= 3.1
+Easy integration of YUI with the asset pipeline in Rails 3.1 and greater.
 
 ## Usage
 
@@ -36,9 +36,13 @@ Update your gem bundle
 
 I'm still in the process of deciding exactly how much of the YUI library to vendor, this will likely be evolving in early releases.
 
+## Credits
+
+Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Steve Schwartz.
+
 ## License
 
-Released under the MIT license
+Released under the MIT license.
 
 Copyright (c) 2011 Matt Sanders
 
