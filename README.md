@@ -1,5 +1,7 @@
 # YUI-rails
 
+CAVEAT: Still working out some kinks...
+
 No-hassle integration of YUI with the Rails 3.1 asset pipeline.
 
 ## Usage
@@ -54,7 +56,5 @@ Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Ste
 
 ## License
 
-Released under the MIT license.
-
-Copyright (c) 2011 Matt Sanders
+Copyright (c) 2011 Matt Sanders. Released under the MIT license.
 
