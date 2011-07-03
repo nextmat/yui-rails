@@ -1,6 +1,6 @@
 # YUI-rails
 
-Easy integration of YUI with the asset pipeline in Rails 3.1 and greater.
+No-hassle integration of YUI with the Rails 3.1 asset pipeline.
 
 ## Usage
 
