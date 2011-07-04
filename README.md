@@ -1,54 +1,41 @@
 # YUI-rails
 
-CAVEAT: Still working out some kinks...
-
 No-hassle integration of YUI with the Rails 3.1 asset pipeline.
 
 ## Usage
 
-This gem vendors the latest YUI 3 for easy use.
-
-Start with the installation instructions below.
-
-By default the YUI base file will be added to your asset pipeline so you can use it immediately. Other files can be added as needed.
-
-## Requirements
-
-As long as you are using Rails 3.1 or greater you should be good.
-
-## Installation while setting up a new Rails project
-
-You can use the --javascript flag with rails to specify your preferred library when creating a new rails project. For example:
-
-    rails foo --javascript=yui
-    
-This will create a new project named 'foo' with yui-rails already installed.
-
-In your `app/assets/javascripts/application.js` there may also be a line that looks like:
-
-    //= require yui_ujs
-
-If so, remove it.
-
-## Installation after the fact
-
-Add the library to your gemfile
-
-    gem 'yui-rails'
-    
-Update your gem bundle
-
-    bundle install
-    
-Make sure the following line is in your `app/assets/javascripts/application.js`:
+This gem vendors the latest YUI 3 for easy use. Once installed, add YUI to your app by adding: 
 
     //= require yui
     
-Remove any lines that reference jquery as applicable.
+To your `app/assets/javascripts/application.js`. 
 
-## Notes
+You can use debug or pre-minimized versions by requiring `yui-debug` or `yui-min`.
 
-I'm still in the process of deciding exactly how much of the YUI library to vendor, this will likely be evolving in early releases.
+
+## Requirements
+
+Rails 3.1 or greater.
+
+## Installation 
+
+### Existing Rails project
+
+Add the gem to your `Gemfile`:
+
+    gem 'yui-rails'
+    
+Update your gem bundle:
+
+    $ bundle install
+
+### New Rails project
+
+You can use the `--javascript` flag with rails to specify your preferred library when creating a new rails project. For example:
+
+    rails new foo --javascript=yui
+    
+This will create a new project named 'foo' with yui-rails already installed.
 
 ## Credits
 
