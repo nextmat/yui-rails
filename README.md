@@ -37,6 +37,13 @@ You can use the `--javascript` flag with rails to specify your preferred library
     
 This will create a new project named 'foo' with yui-rails already installed.
 
+## TODO
+
+Plans for improvement in no particular order:
+
+  * Decide how much (all?) of YUI to vendor (with debug versions everything is ~15.5mb, seems awfully heavy)
+  * Provide intelligent loader to mimic CDN's ability to load a group of dependencies on demand as a single file
+
 ## Credits
 
 Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Steve Schwartz.
