@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   
   s.authors   = ["Matt Sanders"]
   s.email     = 'matt@modal.org'
-  # s.homepage  = '' #TODO
+  s.homepage  = 'https://github.com/nextmat/yui-rails'
   
   #s.executables         = []
   s.required_rubygems_version = '>= 1.3.6'
