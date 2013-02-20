@@ -12,4 +12,5 @@ then
     cd ../..
 else
     echo "run this with the version number, e.g. ./update_yui.sh 3.8.1"
+    echo "then update lib/yui/rails/version.rb YUI_VERSION to 3.8.1"
 fi
