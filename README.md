@@ -4,11 +4,11 @@ No-hassle integration of YUI with the Rails 3.1 asset pipeline.
 
 ## Usage
 
-This gem vendors the latest YUI 3 for easy use. Once installed, add YUI to your app by adding: 
+This gem vendors the latest YUI 3 for easy use. Once installed, add YUI to your app by adding:
 
     //= require yui
-    
-To your `app/assets/javascripts/application.js`. 
+
+To your `app/assets/javascripts/application.js`.
 
 You can use debug or pre-minimized versions by requiring `yui-debug` or `yui-min`.
 
@@ -17,14 +17,14 @@ You can use debug or pre-minimized versions by requiring `yui-debug` or `yui-min
 
 Rails 3.1 or greater.
 
-## Installation 
+## Installation
 
 ### Existing Rails project
 
 Add the gem to your `Gemfile`:
 
     gem 'yui-rails'
-    
+
 Update your gem bundle:
 
     $ bundle install
@@ -34,7 +34,7 @@ Update your gem bundle:
 You can use the `--javascript` flag with rails to specify your preferred library when creating a new rails project. For example:
 
     rails new foo --javascript=yui
-    
+
 This will create a new project named 'foo' with yui-rails already installed.
 
 ## TODO
@@ -50,5 +50,5 @@ Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Ste
 
 ## License
 
-Copyright (c) 2011 Matt Sanders. Released under the MIT license.
+Copyright (c) 2011-2013 Matt Sanders. Released under the MIT license.
 
