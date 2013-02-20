@@ -1,23 +1,15 @@
 #!/bin/bash
 
 ROOT=`pwd`"/vendor/assets"
-TMP="`pwd`/tmp/yui3"
-# Pull down yui3 sources
-git clone  git://github.com/yui/yui3.git tmp/yui3
-git fetch
 if [  -n "$1" ]
 then
-    cd $TMP
-    echo "checking out ref $1"
-    git checkout $1
+    echo "downloading $1"
+    cd $ROOT/javascripts/
+    rm yui.js yui-min.js yui-debug.js
+    wget "http://yui.yahooapis.com/$1/build/yui/yui-min.js"
+    wget "http://yui.yahooapis.com/$1/build/yui/yui.js"
+    wget "http://yui.yahooapis.com/$1/build/yui/yui-debug.js"
     cd ../..
 else
-    echo "you could run this with a checkout ref option, e.g. v3.8.1"
+    echo "run this with the version number, e.g. ./update_yui.sh 3.8.1"
 fi
-
-# Copy js/ to javascripts/
-find $TMP/build/yui/ -iname '*coverage.js' -exec rm '{}' \;
-cp -r $TMP/build/yui/* $ROOT/javascripts/
-
-# remove leftovers
-rm -rf $TMP
