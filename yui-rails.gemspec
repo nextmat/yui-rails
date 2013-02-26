@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = '>= 1.3.6'
 
-  s.files = Dir["vendor/**/*.js"] + Dir["lib/**/*"] + ["README.md", "LICENSE"]
+  s.files = Dir["vendor/**/*.js"] + Dir["lib/**/*"] + ["README.md", "CHANGELOG.md", "LICENSE"]
   s.test_files   = Dir["test/**/**"]
 
   s.require_paths = ["lib"]
