@@ -10,7 +10,7 @@ This gem vendors the latest YUI 3 for easy use. Once installed, add YUI to your 
 
 To your `app/assets/javascripts/application.js`.
 
-You can use debug or pre-minimized versions by requiring `yui-debug` or `yui-min`.
+You can use debug or pre-minimized versions by instead requiring `yui-debug` or `yui-min`.
 
 
 ## Requirements
@@ -44,6 +44,11 @@ Plans for improvement in no particular order:
   * Decide how much (all?) of YUI to vendor (with debug versions everything is ~15.5mb, seems awfully heavy)
   * Provide intelligent loader to mimic CDN's ability to load a group of dependencies on demand as a single file
 
+## Development
+
+* Update the YUI library version with `./update-yui.sh 3.8.1` where 3.8.1 is the YUI version to update to.  Commit the changes, and then `rake install`. You should also change the gem version in yui/rails/version.rb
+* Run tests with `rake`
+
 ## Credits
 
 Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Steve Schwartz.
@@ -51,4 +56,3 @@ Inspired by the [jquery-rails](https://github.com/rails/jquery-rails) gem by Ste
 ## License
 
 Copyright (c) 2011-2013 Matt Sanders. Released under the MIT license.
-

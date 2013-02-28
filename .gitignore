@@ -15,3 +15,11 @@ rdoc
 
 # rcov
 coverage
+
+# rails plugin boilerplate
+log/*.log
+pkg/
+test/dummy/db/*.sqlite3
+test/dummy/log/*.log
+test/dummy/tmp/
+test/dummy/.sass-cache
