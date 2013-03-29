@@ -1,3 +1,7 @@
+### 0.4.0 - 2013-03-26
+
+* Upgrade to YUI 3.9.1 (Benjamin Fleischer)
+
 ### 0.3.0 - 2013-02-26
 
 * (Benjamin Fleischer)
