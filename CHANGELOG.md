@@ -1,3 +1,7 @@
+### 0.5.0 - 2013-05-13
+
+* Upgrade to YUI 3.10.0 (Trey Runcie)
+
 ### 0.4.0 - 2013-03-26
 
 * Upgrade to YUI 3.9.1 (Benjamin Fleischer)
