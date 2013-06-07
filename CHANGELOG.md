@@ -1,3 +1,7 @@
+### 0.5.2 - 2013-06-07
+
+* Upgrade to [YUI 3.10.3](http://www.yuiblog.com/blog/2013/06/06/yui-3-10-3-released-to-fix-reintroduced-swf-vulnerability/) (Benjamin Fleischer)
+
 ### 0.5.1 - 2013-05-28
 
 * Upgrade to YUI 3.10.1 (Benjamin Fleischer)
