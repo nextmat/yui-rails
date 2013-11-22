@@ -13,6 +13,8 @@ To your `app/assets/javascripts/application.js`.
 You can use debug or pre-minimized versions by instead requiring `yui-debug` or `yui-min`.
 
 
+To set up your own combo handler, see [YUI3 build and setup instructions](https://github.com/yui/yui3/wiki/Developer-Workflow#steps)
+
 ## Requirements
 
 Rails 3.1 or greater.
