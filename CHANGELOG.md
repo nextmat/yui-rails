@@ -1,3 +1,13 @@
+### 3.13.0.0.3.0 - 2013-11-22
+
+* Upgrade to [YUI 3.13.0](http://www.yuiblog.com/blog/2013/10/07/yui-3-13-0-released/) (Benjamin Fleischer)
+* Decide to track YUI3 version x.x.x followed by library version x.x.x.
+  The YUI3 version is what the end user is generally more interested in.
+  The library version is back at 0.3.0 since no library-level changes have been
+  made since then.  This can be considered nested
+  [semantic versioning](http://semver.org/) where the
+  [YUI3_VERSION is a prefix to yui-rails's gem version](https://github.com/mojombo/semver/issues/169).
+
 ### 0.5.2 - 2013-06-07
 
 * Upgrade to [YUI 3.10.3](http://www.yuiblog.com/blog/2013/06/06/yui-3-10-3-released-to-fix-reintroduced-swf-vulnerability/) (Benjamin Fleischer)
